@@ -1,0 +1,257 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:ef31ba5c-2ac9-5d6f-8b92-223a689dc038",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T09:35:47Z",
+  "component": {
+   "type": "application",
+   "name": "BOTFRAMEWORK",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/BOTFRAMEWORK@83b357604d34",
+   "purl": "pkg:generic/anticloud/BOTFRAMEWORK@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@azure/cognitiveservices-luis-authoring",
+   "version": "4.0.0-preview.1",
+   "purl": "pkg:npm/@azure/cognitiveservices-luis-authoring@4.0.0-preview.1",
+   "bom-ref": "npm/@azure/cognitiveservices-luis-authoring@4.0.0-preview.1"
+  },
+  {
+   "type": "library",
+   "name": "@azure/ms-rest-azure-js",
+   "version": "2.0.1",
+   "purl": "pkg:npm/@azure/ms-rest-azure-js@2.0.1",
+   "bom-ref": "npm/@azure/ms-rest-azure-js@2.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/node-fetch",
+   "version": "~2.5.5",
+   "purl": "pkg:npm/@types/node-fetch@~2.5.5",
+   "bom-ref": "npm/@types/node-fetch@~2.5.5"
+  },
+  {
+   "type": "library",
+   "name": "antlr4",
+   "version": "^4.7.2",
+   "purl": "pkg:npm/antlr4@^4.7.2",
+   "bom-ref": "npm/antlr4@^4.7.2"
+  },
+  {
+   "type": "library",
+   "name": "chalk",
+   "version": "2.4.1",
+   "purl": "pkg:npm/chalk@2.4.1",
+   "bom-ref": "npm/chalk@2.4.1"
+  },
+  {
+   "type": "library",
+   "name": "console-stream",
+   "version": "^0.1.1",
+   "purl": "pkg:npm/console-stream@^0.1.1",
+   "bom-ref": "npm/console-stream@^0.1.1"
+  },
+  {
+   "type": "library",
+   "name": "deep-equal",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/deep-equal@^1.0.1",
+   "bom-ref": "npm/deep-equal@^1.0.1"
+  },
+  {
+   "type": "library",
+   "name": "delay",
+   "version": "^4.3.0",
+   "purl": "pkg:npm/delay@^4.3.0",
+   "bom-ref": "npm/delay@^4.3.0"
+  },
+  {
+   "type": "library",
+   "name": "fs-extra",
+   "version": "^8.1.0",
+   "purl": "pkg:npm/fs-extra@^8.1.0",
+   "bom-ref": "npm/fs-extra@^8.1.0"
+  },
+  {
+   "type": "library",
+   "name": "get-stdin",
+   "version": "^6.0.0",
+   "purl": "pkg:npm/get-stdin@^6.0.0",
+   "bom-ref": "npm/get-stdin@^6.0.0"
+  },
+  {
+   "type": "library",
+   "name": "globby",
+   "version": "^10.0.1",
+   "purl": "pkg:npm/globby@^10.0.1",
+   "bom-ref": "npm/globby@^10.0.1"
+  },
+  {
+   "type": "library",
+   "name": "intercept-stdout",
+   "version": "^0.1.2",
+   "purl": "pkg:npm/intercept-stdout@^0.1.2",
+   "bom-ref": "npm/intercept-stdout@^0.1.2"
+  },
+  {
+   "type": "library",
+   "name": "lodash",
+   "version": "^4.17.19",
+   "purl": "pkg:npm/lodash@^4.17.19",
+   "bom-ref": "npm/lodash@^4.17.19"
+  },
+  {
+   "type": "library",
+   "name": "node-fetch",
+   "version": "~2.6.0",
+   "purl": "pkg:npm/node-fetch@~2.6.0",
+   "bom-ref": "npm/node-fetch@~2.6.0"
+  },
+  {
+   "type": "library",
+   "name": "semver",
+   "version": "^5.5.1",
+   "purl": "pkg:npm/semver@^5.5.1",
+   "bom-ref": "npm/semver@^5.5.1"
+  },
+  {
+   "type": "library",
+   "name": "tslib",
+   "version": "^1.10.0",
+   "purl": "pkg:npm/tslib@^1.10.0",
+   "bom-ref": "npm/tslib@^1.10.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/chai",
+   "version": "^4.2.0",
+   "purl": "pkg:npm/@types/chai@^4.2.0",
+   "bom-ref": "npm/@types/chai@^4.2.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/lodash",
+   "version": "~4.14.159",
+   "purl": "pkg:npm/@types/lodash@~4.14.159",
+   "bom-ref": "npm/@types/lodash@~4.14.159"
+  },
+  {
+   "type": "library",
+   "name": "@types/mocha",
+   "version": "^5.2.7",
+   "purl": "pkg:npm/@types/mocha@^5.2.7",
+   "bom-ref": "npm/@types/mocha@^5.2.7"
+  },
+  {
+   "type": "library",
+   "name": "@types/nock",
+   "version": "^11.1.0",
+   "purl": "pkg:npm/@types/nock@^11.1.0",
+   "bom-ref": "npm/@types/nock@^11.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^10.14.15",
+   "purl": "pkg:npm/@types/node@^10.14.15",
+   "bom-ref": "npm/@types/node@^10.14.15"
+  },
+  {
+   "type": "library",
+   "name": "chai",
+   "version": "^4.2.0",
+   "purl": "pkg:npm/chai@^4.2.0",
+   "bom-ref": "npm/chai@^4.2.0"
+  },
+  {
+   "type": "library",
+   "name": "mocha",
+   "version": "^6.2.2",
+   "purl": "pkg:npm/mocha@^6.2.2",
+   "bom-ref": "npm/mocha@^6.2.2"
+  },
+  {
+   "type": "library",
+   "name": "nock",
+   "version": "^11.7.0",
+   "purl": "pkg:npm/nock@^11.7.0",
+   "bom-ref": "npm/nock@^11.7.0"
+  },
+  {
+   "type": "library",
+   "name": "nyc",
+   "version": "^14.1.1",
+   "purl": "pkg:npm/nyc@^14.1.1",
+   "bom-ref": "npm/nyc@^14.1.1"
+  },
+  {
+   "type": "library",
+   "name": "rimraf",
+   "version": "^2.6.3",
+   "purl": "pkg:npm/rimraf@^2.6.3",
+   "bom-ref": "npm/rimraf@^2.6.3"
+  },
+  {
+   "type": "library",
+   "name": "ts-node",
+   "version": "^8.3.0",
+   "purl": "pkg:npm/ts-node@^8.3.0",
+   "bom-ref": "npm/ts-node@^8.3.0"
+  },
+  {
+   "type": "library",
+   "name": "tslint",
+   "version": "^5.18.0",
+   "purl": "pkg:npm/tslint@^5.18.0",
+   "bom-ref": "npm/tslint@^5.18.0"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "^3.5.3",
+   "purl": "pkg:npm/typescript@^3.5.3",
+   "bom-ref": "npm/typescript@^3.5.3"
+  },
+  {
+   "type": "library",
+   "name": "uuid",
+   "version": "^3.3.3",
+   "purl": "pkg:npm/uuid@^3.3.3",
+   "bom-ref": "npm/uuid@^3.3.3"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
